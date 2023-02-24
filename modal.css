@@ -1,0 +1,39 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#openModal {
+  background-color: burlywood;
+  color: white;
+  padding: 4px;
+  border-radius: 0.25rem;
+}
+
+.invisible {
+  /* visibility: hidden; */
+  position: fixed;
+  background: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  height: 10%;
+}
+
+/* <body
+    class="h-screen bg-purple-100 flex flex-col items-center justify-center"
+  >
+    <button id="openModal" class="bg-purple-700 text-white py-2 px-4 rounded">
+      Abrir Janela
+    </button>
+
+    <div
+      class="modal-wrapper invisible fixed bg-gray-500 w-screen h-screen flex items-center justify-center"
+    >
+      <div class="p-8 bg-white text-center rounded">Tecle ESC para fechar</div>
+    </div> */
